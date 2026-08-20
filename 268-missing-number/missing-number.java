@@ -8,12 +8,11 @@ class Solution {
                 nums[j+1] = temp;
             }
         }
-        //return nums[i];
+        
      }   
      for(int i = 0;i<nums.length;i++){
-        //int[] arj=arr[i];
+        
         if(nums[i]!=i)
-        //System.out.println(arr[i]);
         return i;
      }
      return nums.length;
